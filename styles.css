@@ -60,7 +60,7 @@ a:link {
 	text-decoration: none;
 }
 
-a:hover h2 {
+a:hover h2, a:hover li {
 	text-decoration: underline;
     text-underline-position: under;
     text-decoration-color: #f2b803;
