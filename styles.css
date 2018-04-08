@@ -5,15 +5,16 @@ body {
   margin: 0 auto;
   text-decoration: none;
   font-family: Lato;
-  overflow-x:hidden;
+  /* overflow-x:hidden; */
 }
 
 .topline {
 	background-color: #F1B803;
 	position: fixed;
 	top: 0;
-	width: 100%;
 	height:13px;
+    box-sizing: border-box;
+    width: -webkit-fill-available;
 }
 
 .header {
@@ -244,7 +245,8 @@ a:hover h2, a:hover li {
 
     .box2-phone, .box3-phone, .box4-phone {
         display: block;
-        width:100%;
+        box-sizing: border-box;
+    width: -webkit-fill-available;
     }
 
     .header img {
@@ -300,24 +302,23 @@ a:hover h2, a:hover li {
 
 @media (max-width: 556px) {
 
-    .topline {
-        display:none;
-    }
 
 .box2-phone, .box3-phone, .box4-phone {
     display: block;
-    width: 121%;
+    box-sizing: border-box;
+    width: -webkit-fill-available;
     margin-bottom: 70px;
 }
 
 .box2-phone img, .box3-phone img, .box4-phone img {
-    width: 88%;
-    left: 14px;
+        width: 100%;
     position: relative;
+    padding: 0;
+    overflow-x: hidden;
 }
 
     .header {
-        padding: 24% 17%;
+        padding: 24% 13%;
     }
 
     .header img {
