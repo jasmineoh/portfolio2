@@ -300,6 +300,10 @@ a:hover h2, a:hover li {
 
 @media (max-width: 556px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
 .box2-phone, .box3-phone, .box4-phone {
     display: block;
     width: 121%;
