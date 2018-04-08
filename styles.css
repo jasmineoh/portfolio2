@@ -247,6 +247,22 @@ a:hover h2, a:hover li {
         width:100%;
     }
 
+    .box2-phone, .box3-phone, .box4-phone {
+    background: #ededed;
+    height: 299px;
+    padding-top: 44px;
+    width: 104%;
+    margin-bottom: 108px;
+}
+
+.box3-phone {
+    height: 381px;
+}
+
+.box4-phone {
+    height: 495px;
+}
+
     .header img {
         display: block;
         width: 100%;
@@ -322,7 +338,7 @@ a:hover h2, a:hover li {
     .header img {
         width: 125%;
         position: relative;
-        right: 31px;
+        right: 24px;
         z-index:1;
     }
 
