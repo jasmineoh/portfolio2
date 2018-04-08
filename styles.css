@@ -247,22 +247,6 @@ a:hover h2, a:hover li {
         width:100%;
     }
 
-    .box2-phone, .box3-phone, .box4-phone {
-    background: #ededed;
-    height: 299px;
-    padding-top: 44px;
-    width: 104%;
-    margin-bottom: 108px;
-}
-
-.box3-phone {
-    height: 381px;
-}
-
-.box4-phone {
-    height: 495px;
-}
-
     .header img {
         display: block;
         width: 100%;
@@ -316,6 +300,12 @@ a:hover h2, a:hover li {
 
 @media (max-width: 556px) {
 
+.box2-phone, .box3-phone, .box4-phone {
+    display: block;
+    width: 121%;
+    margin-bottom: 70px;
+}
+
 .box2-phone img, .box3-phone img, .box4-phone img {
     width: 88%;
     left: 14px;
@@ -324,15 +314,6 @@ a:hover h2, a:hover li {
 
     .header {
         padding: 24% 17%;
-    }
-
-    .button h2 {
-        font-size: 1em;
-        top:6px;
-    }
-
-    .button h3 {
-        font-size: .7em;
     }
 
     .header img {
