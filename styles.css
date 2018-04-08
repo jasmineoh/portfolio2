@@ -19,7 +19,7 @@ body {
 .header {
 	width: 70%;
 	margin: 0 auto;
-	padding: 118px;
+	padding: 10%;
 }
 
 .header .left, .header .right {
@@ -27,27 +27,26 @@ body {
 }
 
 .header .left {
-	width: 450px;
-	margin-left:20px;
+	width: 55%;
 }
 
-.header h1 {
+.header h1, .about h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight:300;
-	font-size: 91px;
+	font-size: 5.5em;
 	color: #595751;
 	letter-spacing: 1.5px;
 	line-height: 93px;
 	text-align: right;
 }
 
-.header h1 .yellow {
+.header h1 .yellow, .about h1 .yellow {
 	color: #F1B803;
 }
 
 h2 {
 	font-family: 'IBM Plex Mono', monospace;
-	font-size: 19px;
+	font-size: 1em;
 	color: #9E9E9E;
 	letter-spacing: 2px;
 	bottom: 71px;
@@ -97,19 +96,21 @@ a:hover h2, a:hover li {
 .box2 {
 	background: rgba(223,223,223,0.42);
 	position: relative;
-    width: 630px;
+    width: 60%;
     margin: 0 auto;
-    right: 240px;
+    right: 20%;
+    max-width: 630px;
 }
 
 .box3 {
 	background: rgba(223,223,223,0.42);
     position: relative;
-    width: 800px;
+    width: 57%;
     height: 650px;
-    left: 180px;
+    left: 20%;
     bottom: 67px;
     margin: 0 auto;
+    max-width:800px;
 }
 
 .box4 {
@@ -118,18 +119,19 @@ a:hover h2, a:hover li {
     width: 59%;
     height: 536px;
     margin: 0 auto;
-    right: 320px;
+    right: 23%;
     margin-bottom: 100px;
+    max-width:800px;
 }
 
 .box2 h2 {
 	bottom: 380px;
-    left: 864px;
+    left: 130%;
     line-height: 35px;
 }
 
 .box3 h2 {
-	left: -330px;
+	left: -50%;
     position: relative;
     bottom: 380px;
     line-height: 35px;
@@ -137,7 +139,7 @@ a:hover h2, a:hover li {
 
 .box4 h2 {
 	bottom: 59px;
-    left: 864px;
+    left: 122%;
     line-height: 35px;
 }
 
@@ -148,16 +150,16 @@ a:hover h2, a:hover li {
 }
 
 .box3 img {
-	width: 440px;
-    padding: 183px 111px;
+	width: 62%;
+    padding: 26% 11%;
     position: relative;
     left: 100px;
 }
 
 .box4 img {
-	width: 345px;
+	width: 48%;
     position: relative;
-    left: 300px;
+    left: 41%;
     top: 100px;
 }
 
@@ -168,4 +170,174 @@ a:hover h2, a:hover li {
 }
 
 
+/* ----- about me -----*/
 
+.about img.phone {
+	display: none;
+
+}
+
+.about {
+	margin: 0 auto;
+    width: 983px;
+    padding-top: 150px;
+}
+.about img {
+	width: 400px;
+    position: absolute;
+    top: 113px;
+}
+
+.about .bio {
+	background: rgba(223,223,223,0.42);
+    padding: 88px 86px 80px 214px;
+    position: relative;
+    top: 184px;
+    left: 248px;
+    width: 438px;
+}
+
+.about h1 {
+	position: absolute;
+    bottom: 300px;
+    right: 106px;
+}
+
+.about p {
+	font-family: Lato;
+    font-weight: 100;
+    font-size: 16px;
+    color: #595751;
+    letter-spacing: 1px;
+    line-height: 27px;
+    width: 90%;
+}
+
+.box2-phone, .box3-phone, .box4-phone, .header img {
+    display: none;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++ MEDIA QUERIES ++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+@media (max-width: 1000px) {
+
+    .topline {
+        z-index:100;
+    }
+
+    .menu {
+        bottom: 15px;
+        background-color: white;
+    }
+
+    .box2, .box3, .box4, .header .left, .header .right {
+        display: none;
+    }
+
+    .box2-phone, .box3-phone, .box4-phone {
+        display: block;
+        width:100%;
+    }
+
+    .header img {
+        display: block;
+        width: 100%;
+        margin:0 auto;
+    }
+
+    .box2-phone img, .box3-phone img, .box4-phone img {
+        max-width: 700px;
+        margin: 0 auto;
+        display: block;
+        width: 90%;
+    }
+
+    .button {
+        text-align: center;
+        background-color: #f2b803;
+        width: 50%;
+        margin: 48px 0px 158px 24%;
+        padding: 10px;
+        color: white;
+    }
+
+    .button h2 {
+        left: unset;
+        bottom: unset;
+        color: white;
+        font-size: 1.6em;
+        margin: 0;
+        top: 11px;
+    }
+
+    .button h3 {
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 3px;
+        font-size: 1em;
+    }
+
+    .header h1 {
+        min-width:370px;
+    }
+
+    .header h2 {
+        left: 90px;
+    }
+
+   
+
+}
+
+
+@media (max-width: 556px) {
+
+.box2-phone img, .box3-phone img, .box4-phone img {
+    width: 88%;
+    left: 14px;
+    position: relative;
+}
+
+    .header {
+        padding: 24% 17%;
+    }
+
+    .button h2 {
+        font-size: 1em;
+        top:6px;
+    }
+
+    .button h3 {
+        font-size: .7em;
+    }
+
+    .header img {
+        width: 125%;
+        position: relative;
+        right: 31px;
+        z-index:1;
+    }
+
+    .menu ul li {
+        display: inline-block;
+    color: #3a3838;
+    padding: 0px 8%;
+    text-decoration: underline;
+    text-underline-position: under;
+    }
+
+    .menu {
+        background: #fff;
+    width: 100%;
+    bottom: 0;
+    border: none;
+    }
+}
