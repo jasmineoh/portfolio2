@@ -129,6 +129,7 @@ a:hover h2, a:hover li {
 	bottom: 380px;
     left: 130%;
     line-height: 35px;
+    width: 200px;
 }
 
 .box3 h2 {
@@ -136,12 +137,14 @@ a:hover h2, a:hover li {
     position: relative;
     bottom: 380px;
     line-height: 35px;
+    width: 260px;
 }
 
 .box4 h2 {
 	bottom: 59px;
     left: 122%;
     line-height: 35px;
+    width: 200px;
 }
 
 .box2 img {
@@ -244,9 +247,10 @@ a:hover h2, a:hover li {
     }
 
     .box2-phone, .box3-phone, .box4-phone {
-        display: block;
-        box-sizing: border-box;
-    width: -webkit-fill-available;
+
+    display: inline-block;
+    box-sizing: border-box;
+    width: 33%;
     }
 
     .header img {
@@ -260,31 +264,6 @@ a:hover h2, a:hover li {
         margin: 0 auto;
         display: block;
         width: 90%;
-    }
-
-    .button {
-        text-align: center;
-        background-color: #f2b803;
-        width: 50%;
-        margin: 48px 0px 158px 24%;
-        padding: 10px;
-        color: white;
-    }
-
-    .button h2 {
-        left: unset;
-        bottom: unset;
-        color: white;
-        font-size: 1.6em;
-        margin: 0;
-        top: 11px;
-    }
-
-    .button h3 {
-        text-transform: uppercase;
-        font-weight: 100;
-        letter-spacing: 3px;
-        font-size: 1em;
     }
 
     .header h1 {
