@@ -127,7 +127,7 @@ a:hover h2, a:hover li {
 
 .box2 h2 {
 	bottom: 380px;
-    left: 130%;
+    left: 139%;
     line-height: 35px;
     width: 200px;
 }
@@ -221,6 +221,10 @@ a:hover h2, a:hover li {
     display: none;
 }
 
+.about img.phone {
+        display:none;
+    }
+
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++
@@ -281,6 +285,43 @@ a:hover h2, a:hover li {
 
 @media (max-width: 556px) {
 
+    .about img.phone {
+        display:block;
+        margin:0 auto;
+        width:95%;
+        position:unset;
+    }
+
+    .about img.desktop, .about h1 {
+        display:none;
+    }
+
+    .about .bio {
+        background: white;
+    padding: 10px 0% 50px 5%;
+    position: unset;
+    width: 95%;
+    top: unset;
+    left: unset;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    }
+
+    .about {
+        width: 95%;
+        padding-top: 40px;
+    }
+
+
+/*
+    background: rgba(223,223,223,0.42);
+    padding: 88px 86px 80px 214px;
+    position: relative;
+    top: 184px;
+    left: 248px;
+    width: 438px;
+*/
 
 .box2-phone, .box3-phone, .box4-phone {
     display: block;
