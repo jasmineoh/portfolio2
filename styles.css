@@ -424,4 +424,9 @@ i.fa.fa-camera {
      a.inlinelink {
         padding:unset !important;
     }
+
+    a.about-resume {
+    width: 180px;
+    padding: 7px 29px !important;
+}
 }
