@@ -193,7 +193,7 @@ a:hover h2, a:hover li {
 }
 
 .about .bio {
-	background: rgba(223,223,223,0.42);
+	background: rgba(223,223,223,0.22);
     padding: 88px 86px 80px 214px;
     position: relative;
     top: 99px;
@@ -211,12 +211,13 @@ a:hover h2, a:hover li {
 
 .about p {
 	font-family: Lato;
-    font-size: 17px;
+    font-size: 16px;
     color: #595751;
     letter-spacing: 0.7px;
     line-height: 29px;
     width: 96%;
 }
+
 
 .about .bio i {
     padding-right: 10px;
@@ -234,14 +235,54 @@ a:hover h2, a:hover li {
     color: #f2b803;
     text-decoration: underline;
     text-underline-position: under;
-    line-height: 2.1;
-    position: relative;
-    font-size: .81em;
 }
 
 a.about-resume {
-    margin-left: 44px;
+    border: 1px solid;
+    padding: 10px 51px;
+    position: relative;
+    top: 21px;
+    text-decoration: none !important;
 }
+
+a.about-resume:hover {
+    background-color:#59575b;
+    color:white;
+}
+
+
+/* ----- footer -----*/
+
+footer {
+    padding: 100px 0px;
+    text-align: center;
+    font-size: 27px;
+    color: #f2b803;
+}
+
+footer a {
+        color: #f2b803;
+    border: 1px solid;
+    padding: 6px 11px;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+footer a:hover {
+    background-color: #f2b803;
+    color: white;
+}
+
+i.fa.fa-camera {
+    font-size: 24px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -331,10 +372,6 @@ a.about-resume {
         padding-bottom: 170px;
     }
 
-    a.about-resume {
-        display: none !important;
-    }
-
 
     .box2-phone, .box3-phone, .box4-phone {
         display: block;
@@ -371,7 +408,6 @@ a.about-resume {
 
     .bio p a {
         color: #f2b803 !important;
-        margin: 13px 0px 10px 0px;
     }
 
     .menu {
@@ -379,5 +415,13 @@ a.about-resume {
         width: 100%;
         bottom: 0;
         border: none;
+    }
+
+    footer {
+        padding-top:0px;
+    }
+
+     a.inlinelink {
+        padding:unset !important;
     }
 }
