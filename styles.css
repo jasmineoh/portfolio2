@@ -196,7 +196,7 @@ a:hover h2, a:hover li {
 	background: rgba(223,223,223,0.42);
     padding: 88px 86px 80px 214px;
     position: relative;
-    top: 184px;
+    top: 99px;
     left: 248px;
     width: 438px;
     height: 282px;
@@ -235,6 +235,9 @@ a:hover h2, a:hover li {
     text-decoration: underline;
     text-underline-position: under;
     line-height: 2.1;
+    position: relative;
+    right: 451px;
+    font-size: .81em;
 }
 
 a.about-resume {
